@@ -60,6 +60,7 @@ pub fn get_args() -> MyResult<Config> {
         )
         .arg(
             Arg::with_name("number")
+                .long("number")
                 .short("n")
                 .help("Number lines")
                 .takes_value(false)
